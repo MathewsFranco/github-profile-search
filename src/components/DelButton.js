@@ -1,8 +1,11 @@
 import React from 'react'
 
-const DelButton = () => {
+const DelButton = ({profileId, delCard}) => {
   return(
-    <button className='del-btn'>del</button>
+    <button 
+    className='del-btn'
+    onClick={() => delCard(profileId)}
+    >del</button>
   )
 }
 

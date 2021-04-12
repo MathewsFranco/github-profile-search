@@ -10,7 +10,10 @@ class Card extends React.Component {
         <div className="info">
           <div className="name">{profile.name}</div>
           <div className="company">{profile.company}</div>
-          <DelButton />
+          <DelButton 
+          profileId = {profile.id}
+          delCard = {profile.delCard}
+          />
         </div>
     	</div>
     );

@@ -4,3 +4,4 @@ This is a list of TODO:
 -contributions calendar</br>
 -delete card button</br>
 -general style</br>
+-link the git hub Profile</br>
