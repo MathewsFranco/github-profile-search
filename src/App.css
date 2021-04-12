@@ -36,3 +36,50 @@
     transform: rotate(360deg);
   }
 }
+
+.github-profile {
+  position: relative;
+  background-color: #ccc;
+  border: thin solid #888;
+  border-radius: 5px;
+  margin: 2rem;
+  padding: 2rem;
+}
+.github-profile .del-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 4px 4px 0 0;
+}
+
+.github-profile img {
+  border: thin solid #888;
+  width: 75px;
+}
+.github-profile .info {
+  display: inline-block;
+  margin-left: 12px;
+}
+.github-profile .name {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+form {
+  border: thin solid #888;
+  border-radius: 5px;
+  padding: 2rem;
+  margin: 0 0.5rem 2rem 0.5rem;
+  display: flex;
+  justify-content: center;
+}
+form input {
+  outline: none;
+  margin-right: 3px;
+}
+
+.header {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
