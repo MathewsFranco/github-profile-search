@@ -1,3 +1,5 @@
+Simple search app to learn used to learn basics of react components and consume API's
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
